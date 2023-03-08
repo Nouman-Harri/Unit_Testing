@@ -10,9 +10,6 @@ const SignupForm = () => {
     password: "",
     confirmPassword: "",
   });
-
-
-  
   const [showPopup, setShowPopup] = useState(false);
 
   const handleSubmit = (event) => {
@@ -22,7 +19,6 @@ const SignupForm = () => {
       alert("Passwords do not match!");
       return;
     }
-
     console.log(formState);
     setShowPopup(true);
   };
