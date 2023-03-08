@@ -1,0 +1,15 @@
+.form_shape {
+  width: 25%;
+  border: 1px solid black;
+  box-shadow: -8px 8px 19px 2px;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 0 auto;
+  background: rgb(232, 227, 227);
+}
+.form-control {
+  padding: 13px;
+}
+.form-group {
+  margin-top: 12px;
+}
