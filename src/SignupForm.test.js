@@ -31,6 +31,7 @@ describe("SignupForm", () => {
     expect(getByText("You have successfully created an account.")).toBeInTheDocument();
   });
 
+  
   test("displays an error message when the passwords do not match", () => {
     const { getByLabelText, getByRole, getByText } = render(<SignupForm />);
     const passwordInput = getByLabelText("Password");
